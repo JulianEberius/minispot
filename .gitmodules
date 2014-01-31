@@ -1,0 +1,6 @@
+[submodule "Libraries/cocoalibspotify"]
+	path = Libraries/cocoalibspotify
+	url = https://github.com/spotify/cocoalibspotify.git
+[submodule "Libraries/ShortcutRecorder"]
+	path = Libraries/ShortcutRecorder
+	url = https://github.com/Kentzo/ShortcutRecorder

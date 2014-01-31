@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041E13BD189A5ED90098DE45 /* ShortcutRecorder.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */; };
+		041E13BF189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj in Resources */ = {isa = PBXBuildFile; fileRef = 041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */; };
+		0449B7941897A75800E5304F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0449B7931897A75800E5304F /* Cocoa.framework */; };
+		0474BD75189A4A4A00D86857 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD59189A4A4A00D86857 /* Credits.rtf */; };
+		0474BD76189A4A4A00D86857 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD5B189A4A4A00D86857 /* InfoPlist.strings */; };
+		0474BD77189A4A4A00D86857 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD5D189A4A4A00D86857 /* MainMenu.xib */; };
+		0474BD79189A4A4A00D86857 /* Categories.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474BD67189A4A4A00D86857 /* Categories.m */; };
+		0474BD7A189A4A4A00D86857 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474BD68189A4A4A00D86857 /* main.m */; };
+		0474BD7B189A4A4A00D86857 /* PySpotify.m in Sources */ = {isa = PBXBuildFile; fileRef = 0474BD6A189A4A4A00D86857 /* PySpotify.m */; };
+		0474BD7C189A4A4A00D86857 /* AppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD6C189A4A4A00D86857 /* AppDelegate.py */; };
+		0474BD7D189A4A4A00D86857 /* hotkeys.py in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD6D189A4A4A00D86857 /* hotkeys.py */; };
+		0474BD7E189A4A4A00D86857 /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD6E189A4A4A00D86857 /* main.py */; };
+		0474BD7F189A4A4A00D86857 /* pyobjc_metadata.py in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD6F189A4A4A00D86857 /* pyobjc_metadata.py */; };
+		0474BD80189A4A4A00D86857 /* spotify.py in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD70189A4A4A00D86857 /* spotify.py */; };
+		0474BD81189A4A4A00D86857 /* minispot.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD72189A4A4A00D86857 /* minispot.icns */; };
+		0474BD82189A4A4A00D86857 /* minispot.png in Resources */ = {isa = PBXBuildFile; fileRef = 0474BD73189A4A4A00D86857 /* minispot.png */; };
+		047E5133189A6E8300698D1E /* CocoaLibSpotify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D7121189A5F2B001D7661 /* CocoaLibSpotify.framework */; };
+		047E5134189A6E8300698D1E /* PTHotKey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D712B189A5F2B001D7661 /* PTHotKey.framework */; };
+		047E5135189A6E8300698D1E /* ShortcutRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 043D7129189A5F2B001D7661 /* ShortcutRecorder.framework */; };
+		047E5136189A6E9C00698D1E /* CocoaLibSpotify.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 043D7121189A5F2B001D7661 /* CocoaLibSpotify.framework */; };
+		047E5137189A6E9C00698D1E /* ShortcutRecorder.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 043D7129189A5F2B001D7661 /* ShortcutRecorder.framework */; };
+		047E5138189A6E9C00698D1E /* PTHotKey.framework in Copy Files */ = {isa = PBXBuildFile; fileRef = 043D712B189A5F2B001D7661 /* PTHotKey.framework */; };
+		04F14D88189A48A50037E633 /* Python in Frameworks */ = {isa = PBXBuildFile; fileRef = 04F14D87189A48A50037E633 /* Python */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		043D7120189A5F2B001D7661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 503D630F13258041007772CA;
+			remoteInfo = CocoaLibSpotify;
+		};
+		043D7122189A5F2B001D7661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 504E4934155AA85400E1C0F7;
+			remoteInfo = CocoaLSTests;
+		};
+		043D7128189A5F2B001D7661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 939837800DA42965007F53F3;
+			remoteInfo = ShortcutRecorder.framework;
+		};
+		043D712A189A5F2B001D7661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E273122E1349EC9000A84433;
+			remoteInfo = PTHotKey.framework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0449B7D01897B19A00E5304F /* Copy Files */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				047E5136189A6E9C00698D1E /* CocoaLibSpotify.framework in Copy Files */,
+				047E5137189A6E9C00698D1E /* ShortcutRecorder.framework in Copy Files */,
+				047E5138189A6E9C00698D1E /* PTHotKey.framework in Copy Files */,
+			);
+			name = "Copy Files";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ShortcutRecorder.xcodeproj; path = ../Libraries/ShortcutRecorder/ShortcutRecorder.xcodeproj; sourceTree = "<group>"; };
+		041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CocoaLibSpotify Mac Framework.xcodeproj"; path = "../Libraries/cocoalibspotify/Mac Framework/CocoaLibSpotify Mac Framework.xcodeproj"; sourceTree = "<group>"; };
+		0449B7901897A75800E5304F /* minispot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = minispot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0449B7931897A75800E5304F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0474BD58189A4A4A00D86857 /* appkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = appkey.c; sourceTree = "<group>"; };
+		0474BD5A189A4A4A00D86857 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		0474BD5C189A4A4A00D86857 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0474BD5E189A4A4A00D86857 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0474BD5F189A4A4A00D86857 /* minispot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "minispot-Info.plist"; sourceTree = "<group>"; };
+		0474BD60189A4A4A00D86857 /* minispot-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "minispot-Prefix.pch"; sourceTree = "<group>"; };
+		0474BD66189A4A4A00D86857 /* Categories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Categories.h; sourceTree = "<group>"; };
+		0474BD67189A4A4A00D86857 /* Categories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Categories.m; sourceTree = "<group>"; };
+		0474BD68189A4A4A00D86857 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0474BD69189A4A4A00D86857 /* PySpotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PySpotify.h; sourceTree = "<group>"; };
+		0474BD6A189A4A4A00D86857 /* PySpotify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PySpotify.m; sourceTree = "<group>"; };
+		0474BD6C189A4A4A00D86857 /* AppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = AppDelegate.py; sourceTree = "<group>"; };
+		0474BD6D189A4A4A00D86857 /* hotkeys.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = hotkeys.py; sourceTree = "<group>"; };
+		0474BD6E189A4A4A00D86857 /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		0474BD6F189A4A4A00D86857 /* pyobjc_metadata.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = pyobjc_metadata.py; sourceTree = "<group>"; };
+		0474BD70189A4A4A00D86857 /* spotify.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = spotify.py; sourceTree = "<group>"; };
+		0474BD72189A4A4A00D86857 /* minispot.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = minispot.icns; sourceTree = "<group>"; };
+		0474BD73189A4A4A00D86857 /* minispot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minispot.png; sourceTree = "<group>"; };
+		04F14D87189A48A50037E633 /* Python */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Python; path = ../../../../../System/Library/Frameworks/Python.framework/Versions/2.7/Python; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0449B78D1897A75800E5304F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047E5133189A6E8300698D1E /* CocoaLibSpotify.framework in Frameworks */,
+				047E5134189A6E8300698D1E /* PTHotKey.framework in Frameworks */,
+				047E5135189A6E8300698D1E /* ShortcutRecorder.framework in Frameworks */,
+				04F14D88189A48A50037E633 /* Python in Frameworks */,
+				0449B7941897A75800E5304F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		043D711C189A5F2B001D7661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043D7121189A5F2B001D7661 /* CocoaLibSpotify.framework */,
+				043D7123189A5F2B001D7661 /* CocoaLSTests.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		043D7124189A5F2B001D7661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				043D7129189A5F2B001D7661 /* ShortcutRecorder.framework */,
+				043D712B189A5F2B001D7661 /* PTHotKey.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0449B7871897A75800E5304F = {
+			isa = PBXGroup;
+			children = (
+				041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */,
+				041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */,
+				0474BD57189A4A4A00D86857 /* minispot */,
+				0449B7921897A75800E5304F /* Frameworks */,
+				0449B7911897A75800E5304F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0449B7911897A75800E5304F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0449B7901897A75800E5304F /* minispot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0449B7921897A75800E5304F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04F14D87189A48A50037E633 /* Python */,
+				0449B7931897A75800E5304F /* Cocoa.framework */,
+				0449B7971897A75800E5304F /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0449B7971897A75800E5304F /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0474BD57189A4A4A00D86857 /* minispot */ = {
+			isa = PBXGroup;
+			children = (
+				0474BD64189A4A4A00D86857 /* ObjC */,
+				0474BD6B189A4A4A00D86857 /* Python */,
+				0474BD71189A4A4A00D86857 /* Resources */,
+				0474BD58189A4A4A00D86857 /* appkey.c */,
+				0474BD59189A4A4A00D86857 /* Credits.rtf */,
+				0474BD5B189A4A4A00D86857 /* InfoPlist.strings */,
+				0474BD5D189A4A4A00D86857 /* MainMenu.xib */,
+				0474BD5F189A4A4A00D86857 /* minispot-Info.plist */,
+				0474BD60189A4A4A00D86857 /* minispot-Prefix.pch */,
+			);
+			name = minispot;
+			sourceTree = "<group>";
+		};
+		0474BD64189A4A4A00D86857 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				0474BD65189A4A4A00D86857 /* Categories */,
+				0474BD68189A4A4A00D86857 /* main.m */,
+				0474BD69189A4A4A00D86857 /* PySpotify.h */,
+				0474BD6A189A4A4A00D86857 /* PySpotify.m */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		0474BD65189A4A4A00D86857 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				0474BD66189A4A4A00D86857 /* Categories.h */,
+				0474BD67189A4A4A00D86857 /* Categories.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		0474BD6B189A4A4A00D86857 /* Python */ = {
+			isa = PBXGroup;
+			children = (
+				0474BD6C189A4A4A00D86857 /* AppDelegate.py */,
+				0474BD6D189A4A4A00D86857 /* hotkeys.py */,
+				0474BD6E189A4A4A00D86857 /* main.py */,
+				0474BD6F189A4A4A00D86857 /* pyobjc_metadata.py */,
+				0474BD70189A4A4A00D86857 /* spotify.py */,
+			);
+			path = Python;
+			sourceTree = "<group>";
+		};
+		0474BD71189A4A4A00D86857 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0474BD72189A4A4A00D86857 /* minispot.icns */,
+				0474BD73189A4A4A00D86857 /* minispot.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0449B78F1897A75800E5304F /* minispot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0449B7B01897A75800E5304F /* Build configuration list for PBXNativeTarget "minispot" */;
+			buildPhases = (
+				0449B78C1897A75800E5304F /* Sources */,
+				0449B78D1897A75800E5304F /* Frameworks */,
+				0449B78E1897A75800E5304F /* Resources */,
+				0449B7D01897B19A00E5304F /* Copy Files */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = minispot;
+			productName = minispot;
+			productReference = 0449B7901897A75800E5304F /* minispot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0449B7881897A75800E5304F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Julian Eberius";
+			};
+			buildConfigurationList = 0449B78B1897A75800E5304F /* Build configuration list for PBXProject "minispot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0449B7871897A75800E5304F;
+			productRefGroup = 0449B7911897A75800E5304F /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 043D711C189A5F2B001D7661 /* Products */;
+					ProjectRef = 041E13BE189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj */;
+				},
+				{
+					ProductGroup = 043D7124189A5F2B001D7661 /* Products */;
+					ProjectRef = 041E13BC189A5ED90098DE45 /* ShortcutRecorder.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				0449B78F1897A75800E5304F /* minispot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		043D7121189A5F2B001D7661 /* CocoaLibSpotify.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CocoaLibSpotify.framework;
+			remoteRef = 043D7120189A5F2B001D7661 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		043D7123189A5F2B001D7661 /* CocoaLSTests.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = CocoaLSTests.app;
+			remoteRef = 043D7122189A5F2B001D7661 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		043D7129189A5F2B001D7661 /* ShortcutRecorder.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ShortcutRecorder.framework;
+			remoteRef = 043D7128189A5F2B001D7661 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		043D712B189A5F2B001D7661 /* PTHotKey.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PTHotKey.framework;
+			remoteRef = 043D712A189A5F2B001D7661 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0449B78E1897A75800E5304F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0474BD7F189A4A4A00D86857 /* pyobjc_metadata.py in Resources */,
+				0474BD7E189A4A4A00D86857 /* main.py in Resources */,
+				0474BD75189A4A4A00D86857 /* Credits.rtf in Resources */,
+				041E13BD189A5ED90098DE45 /* ShortcutRecorder.xcodeproj in Resources */,
+				041E13BF189A5EE00098DE45 /* CocoaLibSpotify Mac Framework.xcodeproj in Resources */,
+				0474BD80189A4A4A00D86857 /* spotify.py in Resources */,
+				0474BD76189A4A4A00D86857 /* InfoPlist.strings in Resources */,
+				0474BD7C189A4A4A00D86857 /* AppDelegate.py in Resources */,
+				0474BD82189A4A4A00D86857 /* minispot.png in Resources */,
+				0474BD81189A4A4A00D86857 /* minispot.icns in Resources */,
+				0474BD7D189A4A4A00D86857 /* hotkeys.py in Resources */,
+				0474BD77189A4A4A00D86857 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0449B78C1897A75800E5304F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0474BD7B189A4A4A00D86857 /* PySpotify.m in Sources */,
+				0474BD7A189A4A4A00D86857 /* main.m in Sources */,
+				0474BD79189A4A4A00D86857 /* Categories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0474BD59189A4A4A00D86857 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0474BD5A189A4A4A00D86857 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		0474BD5B189A4A4A00D86857 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0474BD5C189A4A4A00D86857 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0474BD5D189A4A4A00D86857 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0474BD5E189A4A4A00D86857 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0449B7AE1897A75800E5304F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.9;
+			};
+			name = Debug;
+		};
+		0449B7AF1897A75800E5304F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = $CONFIGURATION_BUILD_DIR/CocoaLibSpotify.framework/Versions/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx10.9;
+			};
+			name = Release;
+		};
+		0449B7B11897A75800E5304F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "minispot-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/python2.7,
+				);
+				INFOPLIST_FILE = "minispot-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7",
+					/usr/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0449B7B21897A75800E5304F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "minispot-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/python2.7,
+				);
+				INFOPLIST_FILE = "minispot-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/Frameworks/Python.framework/Versions/2.7",
+					/usr/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0449B78B1897A75800E5304F /* Build configuration list for PBXProject "minispot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449B7AE1897A75800E5304F /* Debug */,
+				0449B7AF1897A75800E5304F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0449B7B01897A75800E5304F /* Build configuration list for PBXNativeTarget "minispot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0449B7B11897A75800E5304F /* Debug */,
+				0449B7B21897A75800E5304F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0449B7881897A75800E5304F /* Project object */;
+}

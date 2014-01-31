@@ -1,0 +1,6 @@
+*.sublime-workspace
+.DS_Store
+xcuserdata
+*.xccheckout
+*.moved-aside
+appkey.c
